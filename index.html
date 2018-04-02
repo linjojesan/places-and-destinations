@@ -1,21 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Places I've Been</title>
-  </head>
-  <body>
-    <h1>These are the Places I've Been</h1>
-
-    
-
-
-
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Places I've Been</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Places we've been</h1>
+    </div>
+    <br>
+    <p> click on the place to see what ive seen</p>
+    <form class="places" action="list" method="post">
+      <button type="button" class="btn-warning btn-lg" type="click" id="mex" value="mexico">Mexico</button>
+      <ul>
+        <li class="mex"><a href="https://www.carnival.com/~/media/Images/explore/destinations/regions/carnival-baja-mexico-region-image-1.jpg">Ensenada</a></li>
+        <li class="mex"><a href="https://a1.r9cdn.net/rimg/dimg/1e/a5/89a6568b-city-31767-5559bca1.jpg?width=500&height=350&xhint=1559&yhint=1382&crop=true">Tijuana</a></li>
+        <li class="mex"><a href="https://s-ec.bstatic.com/images/hotel/max1024x768/111/111174125.jpg">La Mision</a></li>
+        <br>
+      </ul>
+      <button type="button" class="btn-warning btn-lg" id="holland"  type="click">Holland</button>
+      <ul>
+        <li class="holl"><a href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-0/q81/p206x206/10313481_280003168843490_5626451507277231926_n.jpg?_nc_cat=0&oh=3b33690da0bdad32d5755167861b2ecb&oe=5B2EF966">Rotterdam</a></li>
+        <li class="holl"><a href="https://lonelyplanetimages.imgix.net/mastheads/stock-photo-beautiful-amsterdam-76796579.jpg?sharp=10&vib=20&w=1200">Amsterdam</a></li>
+        <li class="holl"><a href="http://tenrandomfacts.com/wp-content/uploads/2015/09/Windmills-at-Kinderdijk.jpg"></a>Kinderdijk</li>
+        <br>
+      </ul>
+    </form>
+  </div>
+</body>
 </html>
