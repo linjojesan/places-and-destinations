@@ -1,3 +1,9 @@
 li {
   display: none;
 }
+
+body {
+  background-image: url("http://www.printawallpaper.com/upload/designs/global_travel_detail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
